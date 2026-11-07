@@ -1,4 +1,6 @@
-# FotoSearch MVP
+# FotoSearch Cloud
+
+Variante independiente de la rama `master`. Ver [procedencia](PROVENANCE.md).
 
 FotoSearch busca fotos de la galería del teléfono con lenguaje natural, manteniendo los originales en el dispositivo. Flutter envía únicamente miniaturas JPEG temporales al backend local; Python calcula embeddings y descarta esos bytes. SQLite guarda IDs de galería, metadatos mínimos y vectores.
 
